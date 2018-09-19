@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+/* Many thanks to w3schools.com for teaching me a lot about CSS */
+
+*{
+	margin: 0px;
+	padding:0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("images/planetarium.jpg"); 
+	/*source for image: https://www.cfa.harvard.edu/imagelist/2016-04*/
+	/*image resized using http://resizeimage.net/*/
+	background-attachment: fixed;
+	color: white;
+}
+
+a{
+	color: white;
+}
+
+.NavBar{
+	position: fixed;
+	width: 100%;
+}
+
+.NavBar ul{
+	margin: 0;
+	overflow: hidden;
+	background-image: url("images/planetarium.jpg");
+	background-attachment: fixed;
+	/*source for image: https://www.cfa.harvard.edu/imagelist/2016-04*/
+	/*image resized using http://resizeimage.net/*/
+}
+
+.NavBar li{
+	display: inline-block;
+	font-size: 30px;
+	padding: 10px 20px;
+}
+
+.NavBar li:hover{
+	background-color: rgba(255, 255, 255, .1);
+}
+
+iframe{
+	border: 0;
+}
+
+.dropdowncontent{
+	display: none;
+	position: absolute;
+	width: 205.94px;
+	margin: 10px 0px 0px -20px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.dropdown:hover .dropdowncontent{
+	display: block;
+}
+
+li a{
+	text-decoration: none;
+}
+
+.centertext{
+	text-align: center;
+}
+
+.pics li{
+	display: inline;
+}
+
+.content{
+	background-color: rgba(0, 0, 0, .7);
+	margin: 10px 50px;
+	padding:20px;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.spacingbeforeheader{
+	padding:35px
+}
+
+.contentspacing{
+	padding:20px
+}
+
+.firstpagetext{
+	padding: 310px 0px;
+	text-align: center;
+}
+
+.header{
+	text-align: center;
+	background-color: rgba(0, 0, 0, .7);
+	padding: 10px 0px;
+	border-radius: 20px;
+	margin-left: 45%;
+	border-style: solid;
+	border-width: 1px;
+	width: 10%;
+	min-width: 77px;
+}
+
+.verticalpic{
+	margin-left: 37.5%;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px;
+	min-width: 200px;
+	width: 25%;
+}
+
+.paragraphspacing{
+	padding:10px;
+}
+
+.leftimg{
+	border-radius: 20px 0px 0px 20px;
+	border-style: solid;
+	border-width:1px;
+	width: 49.5%;
+}
+
+.rightimg{
+	border-radius: 0px 20px 20px 0px;
+	border-style: solid;
+	border-width:1px;
+	width: 49.5%;
+}
+
+.leftimguneven{
+	border-radius: 20px 0px 0px 20px;
+	border-style: solid;
+	border-width:1px;
+	width: 35.64%;
+}
+
+.rightimguneven{
+	border-radius: 0px 20px 20px 0px;
+	border-style: solid;
+	border-width:1px;
+	width: 63.36%;
+}
+
+.vid{
+	border-style: solid;
+	border-width: 1px;
+	width: 49.5%;
+	height: 420px;
+}
